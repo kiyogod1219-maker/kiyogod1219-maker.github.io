@@ -20,6 +20,9 @@ const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 // Node の fetch だとX側に拒否されることがあるため curl で取得する
 const curl = (args) => execFileSync("curl", ["-sS", "--fail", "--max-time", "30", "-A", UA, ...args], { maxBuffer: 32 * 1024 * 1024, stdio: ["ignore", "pipe", "pipe"] });
 
+// 失敗の理由（curl のメッセージ）を1行で取り出す
+const reason = (error) => String(error.stderr ?? "").trim() || String(error.message).split("\n")[0];
+
 const decode = (s) => s.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
 
 // Xのデータを表示用の形にそろえる。本文からは画像用の短縮URLを除き、リンクは元の表記に戻す
@@ -57,7 +60,7 @@ try {
   }
   console.log(`Timeline: ${entries.length} entries.`);
 } catch (error) {
-  console.log("Timeline unavailable this time:", String(error.message).split("\n")[0]);
+  console.log("Timeline unavailable this time:", reason(error));
 }
 
 // 2. x-posts.txt に貼られたURL
@@ -73,7 +76,7 @@ for (const id of pinned) {
     const t = JSON.parse(curl([`https://cdn.syndication.twimg.com/tweet-result?id=${id}&token=${token}`]).toString("utf8"));
     if (t.user?.screen_name === SCREEN_NAME) found.set(id, toPost(t));
   } catch (error) {
-    console.log(`Could not load pinned post ${id}:`, String(error.message).split("\n")[0]);
+    console.log(`Could not load pinned post ${id}:`, reason(error));
   }
 }
 
