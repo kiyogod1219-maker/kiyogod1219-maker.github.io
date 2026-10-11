@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kiyogod1219-maker.github.io/sitemap.xml

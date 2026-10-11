@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://kiyogod1219-maker.github.io/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kiyogod1219-maker.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kiyogod1219-maker.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kiyogod1219-maker.github.io/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kiyogod1219-maker.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiyogod1219-maker.github.io/"/>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/hero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/profile.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/portrait.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://kiyogod1219-maker.github.io/en/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kiyogod1219-maker.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kiyogod1219-maker.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kiyogod1219-maker.github.io/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kiyogod1219-maker.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiyogod1219-maker.github.io/"/>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/hero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/profile.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/portrait.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://kiyogod1219-maker.github.io/zh/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kiyogod1219-maker.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kiyogod1219-maker.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kiyogod1219-maker.github.io/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kiyogod1219-maker.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiyogod1219-maker.github.io/"/>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/hero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/profile.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/portrait.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://kiyogod1219-maker.github.io/ko/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://kiyogod1219-maker.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kiyogod1219-maker.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kiyogod1219-maker.github.io/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://kiyogod1219-maker.github.io/ko/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiyogod1219-maker.github.io/"/>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/hero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/profile.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kiyogod1219-maker.github.io/images/portrait.jpg</image:loc></image:image>
+  </url>
+</urlset>
