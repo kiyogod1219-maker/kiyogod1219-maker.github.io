@@ -1,9 +1,10 @@
 name: Update X posts
 
-# 6時間ごと、および x-posts.txt を書き換えたときにXの投稿を取り込み、変更があればサイトに反映する
+# 1時間ごと、および x-posts.txt を書き換えたときにXの投稿を取り込み、変更があればサイトに反映する
+# （X側の混雑で取得できない回が多いため、回数を多めにしている）
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
   push:
     paths:
       - x-posts.txt

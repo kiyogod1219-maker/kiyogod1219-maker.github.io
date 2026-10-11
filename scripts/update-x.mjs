@@ -74,7 +74,10 @@ for (const id of pinned) {
   try {
     const token = ((Number(id) / 1e15) * Math.PI).toString(36).replace(/(0+|\.)/g, "");
     const t = JSON.parse(curl([`https://cdn.syndication.twimg.com/tweet-result?id=${id}&token=${token}`]).toString("utf8"));
-    if (t.user?.screen_name === SCREEN_NAME) found.set(id, toPost(t));
+    if (t.user?.screen_name === SCREEN_NAME) {
+      found.set(id, toPost(t));
+      console.log(`Loaded pinned post ${id}.`);
+    }
   } catch (error) {
     console.log(`Could not load pinned post ${id}:`, reason(error));
   }
